@@ -1,0 +1,115 @@
+Script started on 2018-05-24 11:30:05-0700
+]0;006083489@csusb.edu@jb359-9:~/Academics/Spring2018/cse330/hw/hw3[006083489@csusb.edu@jb359-9 hw3]$ g++ HW3.cpp
+]0;006083489@csusb.edu@jb359-9:~/Academics/Spring2018/cse330/hw/hw3[006083489@csusb.edu@jb359-9 hw3]$ a.out
+Integer: 10
+
+Integer: 9
+
+Integer: 8
+
+Integer: 7
+
+Integer: 6
+
+Integer: 5
+
+Integer: 4
+
+Integer: 3
+
+Integer: 2
+
+Integer: 1
+
+
+Values entered
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+10
+..9
+....8
+......7
+........6
+..........5
+............4
+..............3
+................2
+..................1
+
+
+And with iterators ...
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+
+Now doing some removals ...
+Remove? 1
+
+Remove? 2
+
+Remove? 3
+
+
+4
+5
+6
+7
+8
+9
+10
+
+10
+..9
+....8
+......7
+........6
+..........5
+............4
+
+
+And with iterators ...
+4
+
+
+5
+
+
+6
+
+
+7
+
+
+8
+
+
+9
+
+
+10
+
+
+]0;006083489@csusb.edu@jb359-9:~/Academics/Spring2018/cse330/hw/hw3[006083489@csusb.edu@jb359-9 hw3]$ quit
+bash: quit: command not found...
+Similar command is: 'quot'
+]0;006083489@csusb.edu@jb359-9:~/Academics/Spring2018/cse330/hw/hw3[006083489@csusb.edu@jb359-9 hw3]$ exit
+exit
+
+Script done on 2018-05-24 11:30:40-0700

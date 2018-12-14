@@ -1,0 +1,13 @@
+Script started on 2018-04-24 12:01:22-0700
+]777;notify;Command completed;ssh jb358-1]0;006083489@csusb.edu@jb358-20:~/Academics/Spring2018/cse330/hw/hw1]7;file://jb358-20.cse.csusb.edu/home/csusb.edu/006083489/Academics/Spring2018/cse330/hw/hw1[006083489@csusb.edu@jb358-20 hw1]$ g++ -o VectorMain VectorMain.cpp
+]777;notify;Command completed;g++ -o VectorMain VectorMain.cpp]0;006083489@csusb.edu@jb358-20:~/Academics/Spring2018/cse330/hw/hw1]7;file://jb358-20.cse.csusb.edu/home/csusb.edu/006083489/Academics/Spring2018/cse330/hw/hw1[006083489@csusb.edu@jb358-20 hw1]$ VectorMain
+v1: 2 4 6 8 10 12 14 16 
+Enter index number to remove from v1: 3
+After deleting index 3, v1: 2 4 6 10 12 14 16 
+Enter an index number to add an element into that location: 3
+Enter an the number of the element you want to add to index 3: 7
+2 4 6 7 0 12 14 16 0 
+]777;notify;Command completed;VectorMain]0;006083489@csusb.edu@jb358-20:~/Academics/Spring2018/cse330/hw/hw1]7;file://jb358-20.cse.csusb.edu/home/csusb.edu/006083489/Academics/Spring2018/cse330/hw/hw1[006083489@csusb.edu@jb358-20 hw1]$ exit
+exit
+
+Script done on 2018-04-24 12:01:47-0700

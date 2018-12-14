@@ -1,0 +1,25 @@
+Script started on 2018-06-12 09:06:53-0700
+]777;notify;Command completed;ls]0;006083489@csusb.edu@jb358-32:~/Academics/Spring2018/cse330/hw/hw4]7;file://jb358-32.cse.csusb.edu/home/csusb.edu/006083489/Academics/Spring2018/cse330/hw/hw4[006083489@csusb.edu@jb358-32 hw4]$ g++ THSort_HW4.cpp
+]777;notify;Command completed;g++ THSort_HW4.cpp]0;006083489@csusb.edu@jb358-32:~/Academics/Spring2018/cse330/hw/hw4]7;file://jb358-32.cse.csusb.edu/home/csusb.edu/006083489/Academics/Spring2018/cse330/hw/hw4[006083489@csusb.edu@jb358-32 hw4]$ a.out
+
+10, 41, 20, 33, 100
+
+15, 71, 37, 58, 225
+
+20, 104, 59, 86, 400
+
+25, 143, 81, 116, 625
+
+30, 185, 104, 147, 900
+
+35, 227, 129, 179, 1225
+
+40, 260, 156, 212, 1600
+
+45, 314, 181, 247, 2025
+
+50, 341, 211, 282, 2500
+]777;notify;Command completed;a.out]0;006083489@csusb.edu@jb358-32:~/Academics/Spring2018/cse330/hw/hw4]7;file://jb358-32.cse.csusb.edu/home/csusb.edu/006083489/Academics/Spring2018/cse330/hw/hw4[006083489@csusb.edu@jb358-32 hw4]$ exit
+exit
+
+Script done on 2018-06-12 09:07:11-0700
