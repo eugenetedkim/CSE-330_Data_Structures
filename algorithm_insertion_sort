@@ -1,0 +1,88 @@
+https://www.tutorialspoint.com/cplusplus-program-to-implement-insertion-sort
+
+This sorting technique is similar with the card sorting technique, in other words we sort cards using insertion sort mechanism. For this technique, we pick up one element from the data set and shift the data elements to make a place to insert back the picked up element into the data set.
+
+The complexity of Insert Sort Technique:
+- Time Complexity: O(n) for best case, O(n^2) for average and worst case
+- Space Complexity: O(1)
+
+Input - The unsorted list: 45 9 7 69
+
+
+
+
+Output - Array after sorting: 7 9 45
+
+Algorithm
+
+insertionSort(array, size)
+
+Input: An array of data, and the total number in the array
+Output: The sorted Array
+
+Begin
+    for i : = 1 to size-1 do
+        key := array[i]
+        j := 1
+        while j > 0 AND array[j-1] > key do
+            array[j] := array[j-1];
+            j := j - 1
+        done
+        array[j] := key
+     done
+End
+
+Example Code
+#include <iostream>
+
+using namespace std;
+
+void display(int *array, int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        cout << array[i] << " ";
+    }
+    cout << endl;
+}
+
+void insertionSort(int *array, int size)
+{
+    int key, j;
+    for (int i = 1; i < size; i++)
+    {
+        key = array[i]; // take value
+        j = i;
+        while (j > 0 && array[j - 1] > key)
+        {
+            array[j] = array[j - 1];
+            j--;
+        }
+        array[j] = key; // insert in right place
+    }
+}
+
+int main()
+{
+    int n;
+    cout << "Enter the number of elements: ";
+    cin >> n;
+    int arr[n]; // create an array with given number of elements
+    cout << "Enter elements:" << endl;
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+    }
+    cout << "Array before sorting: ";
+    display(arr, n);
+    insertionSort(arr, n);
+    cout << "Array after sorting: ";
+    dispaly(arr, n);
+}
+
+Output
+Enter the number of elements: 6
+Enter elements:
+9 45 23 71 80 55
+Array before sorting: 9 45 23 71 80 55
+Array after sorting: 9 23 45 55 71 80
